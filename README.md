@@ -48,7 +48,7 @@ Before compiling, ensure the following are installed on Windows:
 
 ---
 
-## 🗄️ Database Setup (No Dump File Required)
+## 🗄️ Database Setup
 
 The application features **automatic self-initialization**. When launched, both portals automatically execute `CREATE TABLE IF NOT EXISTS` and seed default sample data for all 8 tables.
 
@@ -69,7 +69,7 @@ The application features **automatic self-initialization**. When launched, both 
    > - `c_system/main.c` (inside the `main()` database connection block)
 
 ### Manual Database Schema & Seed Data (Optional)
-If you prefer to inspect or manually initialize the database tables beforehand without relying on an external `.sql` dump file, you can run the following script in MySQL Workbench or CLI:
+If you prefer to inspect or manually initialize the database tables beforehand use the table desc below:
 
 ```sql
 USE campus_store;
